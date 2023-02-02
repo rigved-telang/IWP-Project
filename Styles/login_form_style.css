@@ -46,9 +46,10 @@ body {
   height: 45px;
   border-radius: 5px;
 }
-.login .form .text::placeholder {
-  /* color: #ccc; */
-}
+/* .login .form .text::placeholder {
+  color: #ccc;
+} */
+
 .login .form input[type="password"].password {
   border: 1px solid #ccc;
   background: none;
@@ -64,9 +65,9 @@ body {
   height: 45px;
   border-radius: 5px;
 }
-.login .form .password::placeholder {
-  /* color: #ccc; */
-}
+/* .login .form .password::placeholder {
+  color: #ccc;
+} */
 .login .form .btn-login {
   background: linear-gradient(to right, #267871, #136a8a);
   text-decoration: none;
