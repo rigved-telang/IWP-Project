@@ -55,6 +55,7 @@ body {
   background: none;
   color: #00181c;
   border: 2px solid #00181c;
+  transition: all 0.2s ease-in-out;
 }
 
 #signup-button {
