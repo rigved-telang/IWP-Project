@@ -94,4 +94,5 @@ nav div:hover {
   cursor: pointer;
   background-color: #00181c;
   color: #f9fdd8;
+  transition: all 0.2s ease-in-out;
 }
