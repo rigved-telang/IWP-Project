@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
 * {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -15,6 +17,13 @@ body {
   height: 100vh;
   width: 100%;
   position: relative;
+}
+
+#features,
+#about-us,
+#contact-us,
+#socials {
+  height: 100vh;
 }
 
 #landing-page-title {
@@ -81,17 +90,19 @@ nav {
   right: 130px;
 }
 
-nav div {
+nav a {
+  text-decoration: none;
+  color: #00181c;
   padding: 10px 40px;
   border-right: 1px solid #00181c;
   font-weight: bold;
 }
 
-nav div:last-child {
+nav a:last-child {
   border-right: none;
 }
 
-nav div:hover {
+nav a:hover {
   cursor: pointer;
   background-color: #00181c;
   color: #f9fdd8;
